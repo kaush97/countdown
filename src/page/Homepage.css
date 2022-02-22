@@ -1,0 +1,102 @@
+/* .container{
+    background-color: black;
+} */
+li{
+   margin-top: 7rem;
+   font-family: Space Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  .offcanvas-body{
+    margin: 1rem 5rem;
+  }
+  .form-group{
+      margin-top: 3rem;
+     
+  }
+  .form-control::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  .form-control {
+    background: inherit;
+    color: white;
+  }
+.offcanvas{
+    width: 50%;
+    background-color: grey;
+}
+@media only screen and (max-width: 600px) {
+    .offcanvas{
+        width: 100%;
+        background-color: grey;
+    }
+  }
+.btn-secondary{
+    background-color: brown;
+    color: aliceblue;
+    display: flex;
+    margin-left: 150%;
+   
+}
+.Heading{
+    margin-top: 25%;
+}
+.input-field{
+    display: flex;
+}
+
+.timer-component{
+margin-left: -12%;
+}
+.right-heading{
+   /* display: flex; */
+   /* word-spacing: rem; */
+   /* margin-left: 15px;
+   width: 70%; */
+   margin-left:2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .btn-secondary {
+      background-color: lightblue;
+      margin-top: 0%;
+      margin-left: -30%;
+    }
+    .input-field{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .Heading{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 5%;
+    }
+   .timer-heading{
+       display: flex;
+       justify-content: center;
+   }
+   .timer-component{
+       margin-left: 0%;
+    }
+  }
